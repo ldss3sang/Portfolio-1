@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AnimatePresence, motion, useAnimation, useTransform, useViewportScroll } from "framer-motion";
+import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import { dbs } from "../Components/Data";

@@ -24,30 +24,30 @@ const Wrapper = styled(motion.div)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
     position: relative;
-    
+    margin: 30px 0px;
 `;
 const Title = styled.span`
 font-size: 48px;
 font-weight: bold;
 `;
 const Description = styled(motion.div)`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 80%;
-font-size: 14px;
-color: rgba(0,0,0,0.8);
-margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+    margin-top: 30px;
 `;
 const Icons = styled.div`
-width: 30%;
-height: 50px;
-display: flex;
-justify-content: space-around;
-align-items: center;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;  
 `;
 
 const Form = styled.form`
@@ -60,7 +60,8 @@ const Form = styled.form`
     input, textarea {
         height: 30px;
         border-radius: 10px; 
-        box-shadow: 2px 3px 2px rgba(0,0,0,0.1);
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        border: none;
     }
     button:hover{
         cursor: pointer;
@@ -115,7 +116,7 @@ function Contact () {
             </Form>
             
             </Description>
-            <span> e-mail: hihjlee0505@gmail.com </span>
+            <span style={{fontSize:"10px", margin:"30px"}}> e-mail: hihjlee0505@gmail.com </span>
             
             <Icons style={{paddingTop:"20px"}}>
             <A href="https://github.com/jlee0505?tab=repositories">

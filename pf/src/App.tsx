@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
-import Works from "./Sections/Work";
+import Works from "./Sections/Works";
 import Contact from "./Sections/Contact";
 
 const A = styled.a`
