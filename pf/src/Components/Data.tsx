@@ -4,7 +4,7 @@ export const dbs = [{
     title: "Netflix",
     description: "Cloning one of the most famous wordwide streaming site",
     kind: "web app",
-    address:"https://jlee0505.github.io/netflix/",
+    address:"https://jlee0505.github.io/NetflixClone/",
     images:["/images/netflix_1.png","/images/netflix_2.png", "/images/netflix_3.png", "/images/netflix_4.png"]
   },{
     id: "02",
@@ -18,6 +18,6 @@ export const dbs = [{
     title: "Momentum",
     description: "Cloning a Chrome app",
     kind: "web app",
-    address:"https://jlee0505.github.io/Momentum/",
+    address:"https://jlee0505.github.io/MomentumClone/",
     images:["/images/netflix_1.png","/images/netflix_2.png", "/images/netflix_3.png", "/images/netflix_4.png"],
   }];
